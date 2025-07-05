@@ -1,0 +1,109 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00ffe7;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #dddddd;
+}
+
+/* Game Box */
+.game-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+#guess-input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  color: #000;
+}
+
+#check-btn {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #00d9ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#check-btn:hover {
+  background-color: #00b8e6;
+}
+
+#message {
+  font-size: 1.1rem;
+  color: #fffd82;
+}
+
+/* Info Box */
+.info-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Restart Button */
+#restart-btn {
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: #ff3f81;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#restart-btn:hover {
+  background-color: #e63270;
+}
+
+.hidden {
+  display: none;
+}
